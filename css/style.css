@@ -1,0 +1,737 @@
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    background: transparent;
+   
+}
+body{
+    background-image:linear-gradient(rgba(2, 3, 3, 0.801),rgba(7, 6, 6, 0.445)), url(../images/blackboard.jpg);
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+    transition: 0.5s;
+}
+a:hover{
+    color: white;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #750000;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ee717c;
+}
+h2{
+    color: #ffffff;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+
+
+.logo{
+    width: 10%;
+    float: left;
+    
+}
+.menu{
+    line-height: 60px;
+    background-color: white;
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: transparent;
+    
+
+}
+.menu ul{
+    list-style-type: none;
+    
+    
+    
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+    
+}
+
+
+.revtab{
+    text-align: center;
+    margin-top: -40px;
+    margin-left: auto;
+    margin-right: auto;
+   background: transparent;
+    color: white;
+   
+}
+.revback{
+    background-image:url(../images/blackboard.jpg);
+    padding-top: 50px;
+}
+
+
+.table{
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 15px 20px;
+}
+
+.table .btn{
+    padding: 8px;
+    background-image:linear-gradient(rgba(36, 90, 0, 0.356),rgba(94, 143, 109, 0.842)), url(../images/blackboard.jpg);
+    color: white;
+    font-weight: 600;
+    margin-left: 10px;
+    transition: 0.5s;
+
+  
+}
+.table .btn1{
+    padding: 9px;
+    background-image:linear-gradient(rgba(102, 102, 102, 0.356),rgb(150, 144, 144)), url(../images/blackboard.jpg);
+    color: white;
+    font-weight: 600;
+    transition: 0.5s;
+  
+}
+.table .btn:hover{
+
+    background-color: #4ce9d4;
+    color: black;
+    font-weight: 600;
+
+}
+.table .btn1:hover{
+
+    background-color: rgb(0, 0, 0);
+    color: red;
+    font-weight: 600;
+}
+.rower11{
+    padding-bottom: 100px;
+}
+.btn11{
+    margin-top: 10px ;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+    border-radius: 10px;
+    font-weight: 700;
+    transition: 0.5s;
+    background-image:linear-gradient(rgba(102, 102, 102, 0.356),rgb(150, 144, 144)), url(../images/blackboard.jpg);
+    
+}
+.btn11:hover{
+    background-image:linear-gradient(rgba(148, 7, 7, 0.356),rgb(245, 109, 109)), url(../images/blackboard.jpg);
+    color: white;
+   
+}
+
+
+.container44{
+    text-align: center;
+    background-image:linear-gradient(rgba(2, 3, 3, 0.801),rgba(7, 6, 6, 0.445)), url(../images/blackboard.jpg);
+}
+
+
+.rower{
+    margin-top: 10px;
+}
+.rowers .fills{
+    margin-top: 50px;
+}
+.form-control{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+.form-control1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    margin-top: 50px;
+}
+.ett{
+    background-color: rgba(7, 6, 6, 0.445);
+}
+.container1111{
+    padding-top: 40px;
+    background: transparent;
+}
+
+.footer{
+    background: transparent;
+    color: white;
+}
+.e{
+   
+    background-image:linear-gradient(rgba(102, 102, 102, 0.356),rgb(7, 6, 6)), url(../images/blackboard.jpg);
+}
+
+
+
+
+
+.food-search{
+    background-image:linear-gradient(rgba(102, 102, 102, 0.356),rgb(7, 6, 6)), url(../images/blackboard.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+    text-align: left;
+    color: #ececec;
+    font-size: 100%;
+    transition:0.5s;
+}
+
+.food-search:hover{
+   font-size: 30px;
+}
+
+
+.container1{
+    font-weight: 600;
+    margin-left:100px;
+    color: #ff4757;
+}
+.container1:hover{
+    
+    font-weight: 600;
+    margin-left:100px;
+    color: #ebebeb;
+}
+
+
+.container1 .display-4{
+    font-size: 100px;
+}
+.container1 .lead{
+    padding-left: 10px;
+}
+.container1 .lead1{
+    padding-left: 80px;
+}
+
+.nass{
+    text-align: center;
+    
+}
+
+
+.nass h3{
+    color: crimson;
+   
+    transition: 0.5s;
+
+}
+.nass h3:hover{
+    font-size: 29px;
+    
+    color: darkmagenta;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+
+.food-menu{
+    background: transparent;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+.thise{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.aa h3{
+    background-image:linear-gradient(rgba(3, 2, 2, 0.801),rgba(7, 6, 6, 0.445));
+    color: #4ec8ec;
+    transition: 0.5s;
+}
+.aa h3:hover{
+    color: #ff6b81;
+}
+
+.aa{
+    transition: 0.5s;
+}
+.aa:hover{
+    color: #ff6b81;
+    font-size: 100px;
+}
+.container11 h1{
+    color: red;
+}
+.aaa{
+    text-align: center;
+}
+.navbar{
+    background-image:linear-gradient(rgba(2, 3, 3, 0.801),rgba(7, 6, 6, 0.445)), url(../images/blackboard.jpg);
+    
+}
+
+
+
+
+
+@media only screen and(max-width:768px){
+    .logo{
+        width: 50%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+    .food-search:hover{
+       font-size: 30px;
+    }
+
+    .food-search h2{
+        color: #ff4757;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+
+   .container1{
+       font-size: 10px;
+   }
+   .jumbotron{
+    font-size: 20px;
+    }
+    table{
+        font-size: 10px;
+    }
+
+    .aboutss{
+        font-size: 10px;
+    }
+    .container1 .display-4{
+        font-size: 50px;
+        margin-left: -20px;
+    }
+    .container1 .lead{
+        margin-left: -20px;
+        font-size: 15px;
+    }
+    .table .btn{
+        padding: 5px;
+        background-color: green;
+        color: white;
+        font-weight: 600;
+        margin-left: 10px;
+        transition: 0.5s;
+        font-size: 20px;
+    
+      
+    }
+    .table .btn1{
+        padding: 5px;
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        transition: 0.5s;
+        font-size: 50px;
+      
+    }
+    .navbar{
+        font-size: 15px;
+       
+    }
+    .navbar .logo{
+        font-size: 15px;
+    }
+    .about1 .title1{
+        font-size: 15px;
+    }
+    .about-content{
+        font-size: 15px;
+    }
+   
+    .container .img-responsive{
+        width: 50%;
+        text-align: center;
+        margin-left: 100px;
+    }
+    .food-menu-img{
+        width: 50%;
+        margin-left: 90px;
+    }
+    .food-menu-box{
+        text-align: center;
+    }
+    .food-menu-desc{
+        margin-left: 50px;
+    }
+    .img-responsive .logos{
+        margin-right: 400px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media (max-width:736px){
+    .logo{
+        width: 100%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 70%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 30%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+    .food-search:hover{
+       font-size: 30px;
+    }
+
+    .food-search h2{
+        color: #ff4757;
+    }
+
+    .categories{
+        padding: 10% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 80%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 15% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 80%;
+    }
+
+   .container1{
+       font-size: 10px;
+   }
+   .jumbotron{
+    font-size: 15px;
+    }
+    table{
+        font-size: 10px;
+    }
+
+    .aboutss{
+        font-size: 10px;
+    }
+    .container1 .display-4{
+        font-size: 30px;
+        margin-left: -20px;
+    }
+    .container1 .lead{
+        margin-left: -20px;
+        font-size: 15px;
+    }
+    .table .btn{
+        padding: 5px;
+        background-color: green;
+        color: white;
+        font-weight: 600;
+        margin-left: 10px;
+        transition: 0.5s;
+        font-size: 4.8px;
+    
+      
+    }
+    .table .btn1{
+        padding: 5px;
+        background-color: red;
+        color: white;
+        font-weight: 600;
+        transition: 0.5s;
+        font-size: 5px;
+       
+      
+    }
+    .navbar{
+        font-size: 15px;
+       
+    }
+    .navbar .logo{
+        font-size: 15px;
+        background-image:linear-gradient(rgba(102, 102, 102, 0.356),rgb(150, 144, 144));
+    }
+    .about1 .title1{
+        font-size: 15px;
+    }
+    .about-content{
+        font-size: 15px;
+        
+    }
+
+    
+    
+    .container .img-responsive{
+        width: 40%;
+        text-align: center;
+        margin-left: 110px;
+    }
+    .float-text{
+        font-size: 15px;
+    }
+    .food-menu-img{
+        width: 50%;
+        margin-left: 5px;
+    }
+    .food-menu-box{
+        text-align: center;
+    }
+    .food-menu-desc{
+        margin-left: 40px;
+    }
+    .float-text{
+        margin-left: 30px;
+    }
+    .img-responsive.img-curve{
+        text-align: center;
+    }
+    .img-responsive .logos{
+        margin-right: 400px;
+    }
+    .menu{
+        font-size: 15px;
+    }
+    .form-control{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .form-control1{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+
